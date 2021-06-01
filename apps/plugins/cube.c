@@ -400,6 +400,16 @@
 #define CUBE_PAUSE          BUTTON_PLAY
 #define CUBE_HIGHSPEED      BUTTON_BACK
 
+#elif CONFIG_KEYPAD == MOLLYTEK_A0_PAD
+#define CUBE_QUIT           BUTTON_POWER
+#define CUBE_NEXT           BUTTON_RIGHT
+#define CUBE_PREV           BUTTON_LEFT
+#define CUBE_INC            BUTTON_SCROLL_FWD
+#define CUBE_DEC            BUTTON_SCROLL_BACK
+#define CUBE_MODE           BUTTON_MENU
+#define CUBE_PAUSE          BUTTON_PLAY
+#define CUBE_HIGHSPEED      BUTTON_BACK
+
 #else
 #error No keymap defined!
 #endif

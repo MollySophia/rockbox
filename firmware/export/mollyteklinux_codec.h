@@ -1,0 +1,6 @@
+#ifndef _MOLLYTEKLINUX_CODEC_H_
+#define _MOLLYTEKLINUX_CODEC_H_
+
+AUDIOHW_SETTING(VOLUME, "dB", 0, 1, -127, 0, -30)
+
+#endif
